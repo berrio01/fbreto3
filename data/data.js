@@ -13,6 +13,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
                             </div>
                         </div>`;
         divRow.appendChild(divCol);
+        divCol.addEventListener("click", function () {
+            
+            $('.modal').modal();
+            
+        });
     });
 })
 
